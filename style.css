@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-track {
+    background: #1A1A1D;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+    background: #1d1d1a;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1d1d1a;
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: clamp(14px, 0.9vw, 18px);
+
+}
+*::selection{
+    background-color: white;
+    color: #1A1A1D;
+}
+body{
+font-size: clamp(0.5rem, 1rem, 2rem);
+    margin: 0 auto;
+    background-color: #1A1A1D;
+    color: white;
+    transition: transform 0.5s ease; /* smooth zoom */
+    transform-origin:top center;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.cv-container{
+    width: 90%;
+    margin: 10vh auto;
+    border: 4px solid white;
+    height: auto;
+    border-radius: 30px;
+}
+.embed{
+    border-radius: 30px;
+}
+.link{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    width:10vw;
+    margin: 5vh auto;
+    border:3px solid white;
+    border-radius: 30px;
+    text-align: center;
+    padding:2vh;
+}
+
